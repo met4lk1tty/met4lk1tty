@@ -1,39 +1,62 @@
-<svg width="900" height="50" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .text {
-      font-family: "Orbitron", monospace;
-      font-size: 28px;
-      font-weight: bold;
-      fill: url(#grad);
-      filter: url(#glow);
-      letter-spacing: 2px;
-    }
-    .glitch {
-      fill: url(#grad);
-      opacity: 0.25;
-    }
-  </style>
+<svg width="900" height="60" viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
+
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff69b4"/>
-      <stop offset="100%" stop-color="#ff69b4" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ff1a1a"/>
+      <stop offset="50%" stop-color="#444444"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
 
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
   </defs>
 
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text">
+  <style>
+    .mainText {
+      font-family: "Orbitron", monospace;
+      font-size: 32px;
+      font-weight: bold;
+      fill: url(#grad);
+      letter-spacing: 3px;
+      filter: url(#glow);
+    }
+
+    .glitch1 {
+      font-family: "Orbitron", monospace;
+      font-size: 32px;
+      font-weight: bold;
+      fill: #ff1a1a;
+      opacity: 0.25;
+      transform: translate(-2px,0);
+    }
+
+    .glitch2 {
+      font-family: "Orbitron", monospace;
+      font-size: 32px;
+      font-weight: bold;
+      fill: #ffffff;
+      opacity: 0.15;
+      transform: translate(2px,0);
+    }
+  </style>
+
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="glitch1">
     met4lk1tty
   </text>
 
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text glitch">
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="glitch2">
     met4lk1tty
   </text>
+
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="mainText">
+    met4lk1tty
+  </text>
+
 </svg>
