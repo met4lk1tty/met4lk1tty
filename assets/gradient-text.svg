@@ -7,13 +7,13 @@
     </linearGradient>
   </defs>
 
-  <text x="0" y="50" font-family="Roboto Mono, monospace" font-size="28" fill="url(#grad1)">
+  <text x="0" y="50" font-family="Roboto Mono, monospace" font-size="16" fill="url(#grad1)">
     Backend developer with a passion for
   </text>
-  <text x="0" y="100" font-family="Roboto Mono, monospace" font-size="28" fill="url(#grad1)">
+  <text x="0" y="90" font-family="Roboto Mono, monospace" font-size="16" fill="url(#grad1)">
     cybersecurity, pentesting and building
   </text>
-  <text x="0" y="150" font-family="Roboto Mono, monospace" font-size="28" fill="url(#grad1)">
+  <text x="0" y="130" font-family="Roboto Mono, monospace" font-size="16" fill="url(#grad1)">
     things that work under the hood.
   </text>
 </svg>
