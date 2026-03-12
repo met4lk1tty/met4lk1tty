@@ -7,5 +7,5 @@
 </p>
 
 <p align="left">
-  <img src="./assets/gradient-text.svg" alt="Backend Developer Gradient" width="400" />
+  <img src="./assets/gradient-text.svg" alt="Backend Developer Gradient"/>
 </p>
